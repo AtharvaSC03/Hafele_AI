@@ -6,7 +6,12 @@ import pymysql
 import pandas as pd
 
 # --- Gemini API Key ---
-genai.configure(api_key="ADD YOUR API KEY")  # Replace securely
+from dotenv import load_dotenv
+
+load_dotenv()  # Load from .env
+
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+
 
 # --- Load Gemini Model ---
 model = genai.GenerativeModel("models/gemini-1.5-flash")
