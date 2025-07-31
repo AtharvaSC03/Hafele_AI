@@ -27,22 +27,8 @@ It uses:
 
 ---
 
-## 🗂️ Project Structure
 
-hafele_ai_assistant/
-├── app/
-│ ├── main.py # Streamlit frontend
-│ ├── ai_assistant.py # Gemini Flash API integration
-│ ├── product_recommender.py # CSV filtering logic
-│ ├── utils.py # Image conversion, helpers
-├── data/
-│ └── hafele_products.csv # Real scraped Hafele product dataset
-├── assets/
-│ └── sample_images/ # Example room images
-├── .env # Gemini API key
-├── requirements.txt
-└── README.md # This file 📝
-
+<img width="607" height="417" alt="image" src="https://github.com/user-attachments/assets/f242e5b2-e6ac-4c49-a373-114f2a23a5e6" />
 
 ---
 
